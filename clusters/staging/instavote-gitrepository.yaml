@@ -7,4 +7,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/ruwbdy/instavote.git
+  url: https://github.com/LFS269-Ruwbdy/instavote.git
