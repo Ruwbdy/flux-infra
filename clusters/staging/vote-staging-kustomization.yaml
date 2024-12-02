@@ -8,11 +8,11 @@ spec:
     - kind: Deployment
       name: vote
       namespace: instavote
-      interval: 1m0s
+  interval: 1m0s
   path: ./deploy/vote/staging
   prune: true
   sourceRef:
     kind: GitRepository
     name: instavote
-    targetNamespace: instavote
+  targetNamespace: instavote
   timeout: 2m0s
