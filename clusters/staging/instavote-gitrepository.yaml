@@ -5,7 +5,7 @@ metadata:
   name: instavote
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 1h
   ref:
     branch: main
   url: https://github.com/LFS269-Ruwbdy/instavote.git

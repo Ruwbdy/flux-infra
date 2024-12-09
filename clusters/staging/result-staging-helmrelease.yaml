@@ -12,5 +12,5 @@ spec:
       sourceRef:
         kind: GitRepository
         name: vote
-  interval: 10m0s
+  interval: 1h
   targetNamespace: instavote
