@@ -11,6 +11,6 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: vote
+        name: instavote
   interval: 1h
   targetNamespace: instavote
